@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MainViewController.h
 //  WDIL
 //
 //  Created by Macallan on 7/7/16.
@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface MainViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
 
 @end
 
