@@ -10,7 +10,6 @@
 
 @interface TableViewCell : UITableViewCell
 @property (weak, nonatomic) IBOutlet UILabel *titleLabel;
-- (IBAction)editButtonTouched:(id)sender;
 
 -(void)setupWithTitle:(NSString*)title;
 

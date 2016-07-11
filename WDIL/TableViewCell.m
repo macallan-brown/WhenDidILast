@@ -13,8 +13,6 @@
 -(void) setupWithTitle:(NSString *)title{
     [self.titleLabel setText:title];
 }
-- (IBAction)editButtonTouched:(id)sender {
-}
 
 -(void)prepareForReuse{
     [self.titleLabel setText:@""];
