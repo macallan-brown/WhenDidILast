@@ -13,8 +13,6 @@
 		233389B21D2F59A900E3C4C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 233389B11D2F59A900E3C4C2 /* Assets.xcassets */; };
 		233389B51D2F59A900E3C4C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 233389B31D2F59A900E3C4C2 /* LaunchScreen.storyboard */; };
 		23623D181D34A8F900A9751E /* AddEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23623D0B1D34A8F900A9751E /* AddEventViewController.m */; };
-		23623D191D34A8F900A9751E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23623D0C1D34A8F900A9751E /* Assets.xcassets */; };
-		23623D1A1D34A8F900A9751E /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 23623D0D1D34A8F900A9751E /* Base.lproj */; };
 		23623D1B1D34A8F900A9751E /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 23623D0F1D34A8F900A9751E /* Event.m */; };
 		23623D1C1D34A8F900A9751E /* EventDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23623D111D34A8F900A9751E /* EventDetailViewController.m */; };
 		23623D1D1D34A8F900A9751E /* EventList.m in Sources */ = {isa = PBXBuildFile; fileRef = 23623D131D34A8F900A9751E /* EventList.m */; };
@@ -33,8 +31,6 @@
 		233389B61D2F59A900E3C4C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23623D0A1D34A8F900A9751E /* AddEventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddEventViewController.h; sourceTree = "<group>"; };
 		23623D0B1D34A8F900A9751E /* AddEventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddEventViewController.m; sourceTree = "<group>"; };
-		23623D0C1D34A8F900A9751E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		23623D0D1D34A8F900A9751E /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Base.lproj; sourceTree = "<group>"; };
 		23623D0E1D34A8F900A9751E /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
 		23623D0F1D34A8F900A9751E /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
 		23623D101D34A8F900A9751E /* EventDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventDetailViewController.h; sourceTree = "<group>"; };
@@ -79,8 +75,6 @@
 			children = (
 				23623D0A1D34A8F900A9751E /* AddEventViewController.h */,
 				23623D0B1D34A8F900A9751E /* AddEventViewController.m */,
-				23623D0C1D34A8F900A9751E /* Assets.xcassets */,
-				23623D0D1D34A8F900A9751E /* Base.lproj */,
 				23623D0E1D34A8F900A9751E /* Event.h */,
 				23623D0F1D34A8F900A9751E /* Event.m */,
 				23623D101D34A8F900A9751E /* EventDetailViewController.h */,
@@ -169,8 +163,6 @@
 			files = (
 				233389B51D2F59A900E3C4C2 /* LaunchScreen.storyboard in Resources */,
 				233389B21D2F59A900E3C4C2 /* Assets.xcassets in Resources */,
-				23623D1A1D34A8F900A9751E /* Base.lproj in Resources */,
-				23623D191D34A8F900A9751E /* Assets.xcassets in Resources */,
 				233389B01D2F59A900E3C4C2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
