@@ -10,6 +10,8 @@
 
 @interface MainViewController : UIViewController
 
+- (IBAction)addEventButtonTap:(id)sender;
+
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 
 @end

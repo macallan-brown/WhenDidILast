@@ -18,6 +18,8 @@
 -(void) removeEvent:(NSInteger) index;
 -(NSInteger) count;
 
++ (id)shared;
+
 @property (strong, nonatomic) NSMutableArray *list;
 
 @end

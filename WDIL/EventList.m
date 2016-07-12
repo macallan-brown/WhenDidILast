@@ -10,11 +10,19 @@
 
 @interface EventList ()
 
-
-
 @end
 
 @implementation EventList
+
++ (id)shared {
+    static EventList *sharedEventList = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        sharedEventList = [[self alloc] init];
+        [sharedEventList setupEventList];
+    });
+    return sharedEventList;
+}
 
 -(void) setupEventList {
     self.list = [[NSMutableArray alloc] init];

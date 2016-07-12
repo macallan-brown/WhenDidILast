@@ -11,6 +11,7 @@
 #import "EventDetailViewController.h"
 #import "Event.h"
 #import "EventList.h"
+#import "AddEventViewController.h"
 
 @interface MainViewController () <UITableViewDelegate, UITableViewDataSource>
 
@@ -26,8 +27,10 @@
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
     
+}
+
+- (void) viewDidAppear:(BOOL)animated {
     [self.tableView reloadData];
-    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -50,20 +53,26 @@
 #pragma mark - UITableViewDataSource and Delegate
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    return [self.eventList count];
+    return [[EventList shared] count];
 }
 
 -(TableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     TableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"tableViewCell"];
-    [cell setupWithTitle: [self.eventList getEvent: indexPath.row].title];
+    [cell setupWithTitle: [[EventList shared] getEvent: indexPath.row].title];
     return cell;
 }
 
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     EventDetailViewController *eventViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"eventDetailViewController"];
-    [self presentViewController:eventViewController animated:YES completion:nil];
-    [eventViewController setupWithEvent:[self.eventList getEvent:indexPath.row]];
+    [self.navigationController presentViewController:eventViewController animated:YES completion:nil];
+    [eventViewController setupWithEvent:[[EventList shared] getEvent:indexPath.row]];
 }
 
+#pragma mark - Action Handlers
+
+- (IBAction)addEventButtonTap:(id)sender {
+    AddEventViewController *addViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"addEventViewController"];
+    [self.navigationController presentViewController:addViewController animated:YES completion:nil];
+}
 @end
