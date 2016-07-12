@@ -9,10 +9,17 @@
 /* Begin PBXBuildFile section */
 		233389A71D2F59A900E3C4C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 233389A61D2F59A900E3C4C2 /* main.m */; };
 		233389AA1D2F59A900E3C4C2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 233389A91D2F59A900E3C4C2 /* AppDelegate.m */; };
-		233389AD1D2F59A900E3C4C2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 233389AC1D2F59A900E3C4C2 /* ViewController.m */; };
 		233389B01D2F59A900E3C4C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 233389AE1D2F59A900E3C4C2 /* Main.storyboard */; };
 		233389B21D2F59A900E3C4C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 233389B11D2F59A900E3C4C2 /* Assets.xcassets */; };
 		233389B51D2F59A900E3C4C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 233389B31D2F59A900E3C4C2 /* LaunchScreen.storyboard */; };
+		23623D181D34A8F900A9751E /* AddEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23623D0B1D34A8F900A9751E /* AddEventViewController.m */; };
+		23623D191D34A8F900A9751E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23623D0C1D34A8F900A9751E /* Assets.xcassets */; };
+		23623D1A1D34A8F900A9751E /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 23623D0D1D34A8F900A9751E /* Base.lproj */; };
+		23623D1B1D34A8F900A9751E /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 23623D0F1D34A8F900A9751E /* Event.m */; };
+		23623D1C1D34A8F900A9751E /* EventDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23623D111D34A8F900A9751E /* EventDetailViewController.m */; };
+		23623D1D1D34A8F900A9751E /* EventList.m in Sources */ = {isa = PBXBuildFile; fileRef = 23623D131D34A8F900A9751E /* EventList.m */; };
+		23623D1E1D34A8F900A9751E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23623D151D34A8F900A9751E /* MainViewController.m */; };
+		23623D1F1D34A8F900A9751E /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 23623D171D34A8F900A9751E /* TableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +27,24 @@
 		233389A61D2F59A900E3C4C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		233389A81D2F59A900E3C4C2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		233389A91D2F59A900E3C4C2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		233389AB1D2F59A900E3C4C2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		233389AC1D2F59A900E3C4C2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		233389AF1D2F59A900E3C4C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		233389B11D2F59A900E3C4C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		233389B41D2F59A900E3C4C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		233389B61D2F59A900E3C4C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23623D0A1D34A8F900A9751E /* AddEventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddEventViewController.h; sourceTree = "<group>"; };
+		23623D0B1D34A8F900A9751E /* AddEventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddEventViewController.m; sourceTree = "<group>"; };
+		23623D0C1D34A8F900A9751E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		23623D0D1D34A8F900A9751E /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Base.lproj; sourceTree = "<group>"; };
+		23623D0E1D34A8F900A9751E /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		23623D0F1D34A8F900A9751E /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
+		23623D101D34A8F900A9751E /* EventDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventDetailViewController.h; sourceTree = "<group>"; };
+		23623D111D34A8F900A9751E /* EventDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventDetailViewController.m; sourceTree = "<group>"; };
+		23623D121D34A8F900A9751E /* EventList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventList.h; sourceTree = "<group>"; };
+		23623D131D34A8F900A9751E /* EventList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventList.m; sourceTree = "<group>"; };
+		23623D141D34A8F900A9751E /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		23623D151D34A8F900A9751E /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		23623D161D34A8F900A9751E /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		23623D171D34A8F900A9751E /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +77,22 @@
 		233389A41D2F59A900E3C4C2 /* WDIL */ = {
 			isa = PBXGroup;
 			children = (
+				23623D0A1D34A8F900A9751E /* AddEventViewController.h */,
+				23623D0B1D34A8F900A9751E /* AddEventViewController.m */,
+				23623D0C1D34A8F900A9751E /* Assets.xcassets */,
+				23623D0D1D34A8F900A9751E /* Base.lproj */,
+				23623D0E1D34A8F900A9751E /* Event.h */,
+				23623D0F1D34A8F900A9751E /* Event.m */,
+				23623D101D34A8F900A9751E /* EventDetailViewController.h */,
+				23623D111D34A8F900A9751E /* EventDetailViewController.m */,
+				23623D121D34A8F900A9751E /* EventList.h */,
+				23623D131D34A8F900A9751E /* EventList.m */,
+				23623D141D34A8F900A9751E /* MainViewController.h */,
+				23623D151D34A8F900A9751E /* MainViewController.m */,
+				23623D161D34A8F900A9751E /* TableViewCell.h */,
+				23623D171D34A8F900A9751E /* TableViewCell.m */,
 				233389A81D2F59A900E3C4C2 /* AppDelegate.h */,
 				233389A91D2F59A900E3C4C2 /* AppDelegate.m */,
-				233389AB1D2F59A900E3C4C2 /* ViewController.h */,
-				233389AC1D2F59A900E3C4C2 /* ViewController.m */,
 				233389AE1D2F59A900E3C4C2 /* Main.storyboard */,
 				233389B11D2F59A900E3C4C2 /* Assets.xcassets */,
 				233389B31D2F59A900E3C4C2 /* LaunchScreen.storyboard */,
@@ -138,6 +169,8 @@
 			files = (
 				233389B51D2F59A900E3C4C2 /* LaunchScreen.storyboard in Resources */,
 				233389B21D2F59A900E3C4C2 /* Assets.xcassets in Resources */,
+				23623D1A1D34A8F900A9751E /* Base.lproj in Resources */,
+				23623D191D34A8F900A9751E /* Assets.xcassets in Resources */,
 				233389B01D2F59A900E3C4C2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -149,7 +182,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				233389AD1D2F59A900E3C4C2 /* ViewController.m in Sources */,
+				23623D1D1D34A8F900A9751E /* EventList.m in Sources */,
+				23623D1C1D34A8F900A9751E /* EventDetailViewController.m in Sources */,
+				23623D1E1D34A8F900A9751E /* MainViewController.m in Sources */,
+				23623D1F1D34A8F900A9751E /* TableViewCell.m in Sources */,
+				23623D181D34A8F900A9751E /* AddEventViewController.m in Sources */,
+				23623D1B1D34A8F900A9751E /* Event.m in Sources */,
 				233389AA1D2F59A900E3C4C2 /* AppDelegate.m in Sources */,
 				233389A71D2F59A900E3C4C2 /* main.m in Sources */,
 			);
@@ -300,6 +338,7 @@
 				233389BB1D2F59A900E3C4C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
