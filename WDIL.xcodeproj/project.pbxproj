@@ -12,6 +12,7 @@
 		233389B01D2F59A900E3C4C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 233389AE1D2F59A900E3C4C2 /* Main.storyboard */; };
 		233389B21D2F59A900E3C4C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 233389B11D2F59A900E3C4C2 /* Assets.xcassets */; };
 		233389B51D2F59A900E3C4C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 233389B31D2F59A900E3C4C2 /* LaunchScreen.storyboard */; };
+		233B674F1D357AEC0047D586 /* WDILUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233B674E1D357AEC0047D586 /* WDILUITests.swift */; };
 		23623D181D34A8F900A9751E /* AddEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23623D0B1D34A8F900A9751E /* AddEventViewController.m */; };
 		23623D1B1D34A8F900A9751E /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 23623D0F1D34A8F900A9751E /* Event.m */; };
 		23623D1C1D34A8F900A9751E /* EventDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23623D111D34A8F900A9751E /* EventDetailViewController.m */; };
@@ -19,6 +20,16 @@
 		23623D1E1D34A8F900A9751E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23623D151D34A8F900A9751E /* MainViewController.m */; };
 		23623D1F1D34A8F900A9751E /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 23623D171D34A8F900A9751E /* TableViewCell.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		233B67511D357AEC0047D586 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2333899A1D2F59A900E3C4C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 233389A11D2F59A900E3C4C2;
+			remoteInfo = WDIL;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		233389A21D2F59A900E3C4C2 /* WDIL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WDIL.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -29,6 +40,9 @@
 		233389B11D2F59A900E3C4C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		233389B41D2F59A900E3C4C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		233389B61D2F59A900E3C4C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		233B674C1D357AEC0047D586 /* WDILUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WDILUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		233B674E1D357AEC0047D586 /* WDILUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WDILUITests.swift; sourceTree = "<group>"; };
+		233B67501D357AEC0047D586 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23623D0A1D34A8F900A9751E /* AddEventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddEventViewController.h; sourceTree = "<group>"; };
 		23623D0B1D34A8F900A9751E /* AddEventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddEventViewController.m; sourceTree = "<group>"; };
 		23623D0E1D34A8F900A9751E /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
@@ -51,6 +65,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		233B67491D357AEC0047D586 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -58,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				233389A41D2F59A900E3C4C2 /* WDIL */,
+				233B674D1D357AEC0047D586 /* WDILUITests */,
 				233389A31D2F59A900E3C4C2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -66,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				233389A21D2F59A900E3C4C2 /* WDIL.app */,
+				233B674C1D357AEC0047D586 /* WDILUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -104,6 +127,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		233B674D1D357AEC0047D586 /* WDILUITests */ = {
+			isa = PBXGroup;
+			children = (
+				233B674E1D357AEC0047D586 /* WDILUITests.swift */,
+				233B67501D357AEC0047D586 /* Info.plist */,
+			);
+			path = WDILUITests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -124,17 +156,40 @@
 			productReference = 233389A21D2F59A900E3C4C2 /* WDIL.app */;
 			productType = "com.apple.product-type.application";
 		};
+		233B674B1D357AEC0047D586 /* WDILUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 233B67551D357AEC0047D586 /* Build configuration list for PBXNativeTarget "WDILUITests" */;
+			buildPhases = (
+				233B67481D357AEC0047D586 /* Sources */,
+				233B67491D357AEC0047D586 /* Frameworks */,
+				233B674A1D357AEC0047D586 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				233B67521D357AEC0047D586 /* PBXTargetDependency */,
+			);
+			name = WDILUITests;
+			productName = WDILUITests;
+			productReference = 233B674C1D357AEC0047D586 /* WDILUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		2333899A1D2F59A900E3C4C2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = Macallan;
 				TargetAttributes = {
 					233389A11D2F59A900E3C4C2 = {
 						CreatedOnToolsVersion = 7.3.1;
+					};
+					233B674B1D357AEC0047D586 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 233389A11D2F59A900E3C4C2;
 					};
 				};
 			};
@@ -152,6 +207,7 @@
 			projectRoot = "";
 			targets = (
 				233389A11D2F59A900E3C4C2 /* WDIL */,
+				233B674B1D357AEC0047D586 /* WDILUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -164,6 +220,13 @@
 				233389B51D2F59A900E3C4C2 /* LaunchScreen.storyboard in Resources */,
 				233389B21D2F59A900E3C4C2 /* Assets.xcassets in Resources */,
 				233389B01D2F59A900E3C4C2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		233B674A1D357AEC0047D586 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,7 +248,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		233B67481D357AEC0047D586 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				233B674F1D357AEC0047D586 /* WDILUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		233B67521D357AEC0047D586 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 233389A11D2F59A900E3C4C2 /* WDIL */;
+			targetProxy = 233B67511D357AEC0047D586 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		233389AE1D2F59A900E3C4C2 /* Main.storyboard */ = {
@@ -311,6 +390,29 @@
 			};
 			name = Release;
 		};
+		233B67531D357AEC0047D586 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WDILUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.macallabrown.WDILUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TEST_TARGET_NAME = WDIL;
+			};
+			name = Debug;
+		};
+		233B67541D357AEC0047D586 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WDILUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.macallabrown.WDILUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WDIL;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -331,6 +433,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		233B67551D357AEC0047D586 /* Build configuration list for PBXNativeTarget "WDILUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				233B67531D357AEC0047D586 /* Debug */,
+				233B67541D357AEC0047D586 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
